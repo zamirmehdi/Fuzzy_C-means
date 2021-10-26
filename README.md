@@ -28,22 +28,26 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#fuzzy-logic">Fuzzy logic</a></li>
+        <li><a href="#clustering">Clustering</a></li>
+        <li><a href="#hard-clustering">Hard Clustering</a></li>
+        <li><a href="#soft-clustering">Soft Clustering</a></li>
+        <li><a href="#fuzzy-c-means-clustering">Fuzzy C-Means Clustering</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+<!--     <li><a href="#roadmap">Roadmap</a></li> -->
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+<!--     <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 
@@ -53,21 +57,21 @@
 ## About The Project
 This Project is a classification program based on Fuzzy Logic(C-Means), which can classify numeric and vectorized datasets.
 
-### Fuzzy logic
+* ### Fuzzy logic
 In logic, fuzzy logic is a form of many-valued logic in which the truth value of variables may be any real number between 0 and 1. It is employed to handle the concept of partial truth, where the truth value may range between completely true and completely false.[1] By contrast, in Boolean logic, the truth values of variables may only be the integer values 0 or 1.
 
-### Clustering
+* ### Clustering
 Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data analysis and a common technique for statistical data analysis, used in many fields, including pattern recognition, image analysis, information retrieval, bioinformatics, data compression, computer graphics, and machine learning.
 
-#### Hard Clustering:
+* #### Hard Clustering:
 In hard clustering, each data point is clustered or grouped to any one cluster. For each data point, it may either completely belong to a cluster or not. As observed in the above diagram, the data points are divided into two clusters, each point belonging to either of the two clusters.
 K-Means Clustering is a hard clustering algorithm. It clusters data points into k-clusters.
 
-#### Soft Clustering:
+* #### Soft Clustering:
 In soft clustering, instead of putting each data points into separate clusters, a probability of that point to be in that cluster assigned. In soft clustering or fuzzy clustering, each data point can belong to multiple clusters along with its probability score or likelihood.
 One of the widely used soft clustering algorithms is the Fuzzy C-means clustering (FCM) Algorithm.
 
-### Fuzzy C-Means Clustering:
+* ### Fuzzy C-Means Clustering:
 Fuzzy C-Means clustering is a soft clustering approach, where each data point is assigned a likelihood or probability score to belong to that cluster.
 
 
@@ -99,7 +103,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/zamirmehdi/zamirmehdi/Fuzzy_C-means.git
    ```
-3. Install Data Science packages
+2. Install Data Science packages
    ```sh
    pip install pandas
    ```
@@ -111,16 +115,17 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+You can run the program on four datasets in the repository. Also, you can use your own datasets in CSV format.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap
 
 - [x] Add Changelog
 - [x] Add back to top links
@@ -132,7 +137,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -175,7 +180,7 @@ Project Link: [https://github.com/zamirmehdi//Fuzzy_C-means](https://github.com/
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
@@ -188,7 +193,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
